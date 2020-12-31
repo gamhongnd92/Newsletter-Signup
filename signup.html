@@ -10,7 +10,7 @@
 
     <title>Newsletter Signup</title>
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
 
     <!-- Bootstrap core CSS -->
@@ -20,15 +20,15 @@
 </head>
 
 <body class="text-center">
-    <form class="form-signin">
+    <form class="form-signin" method="post" action="/">
         <img class="mb-4" src="img/laplogo.png" alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Sign up to my Newsletter</h1>
 
-        <input type="text" id="inputFirstName" name="inputFirstName" class="form-control top" placeholder="First Name" required autofocus>
+        <input type="text" name="inputFirstName" class="form-control top" placeholder="First Name" required autofocus>
 
-        <input type="text" id="inputLastName" name="inputLastName" class="form-control middle" placeholder="Last Name" required autofocus>
+        <input type="text" name="inputLastName" class="form-control middle" placeholder="Last Name" required autofocus>
 
-        <input type="email" id="inputEmail" name="inputEmail" class="form-control bottom" placeholder="Email" required>
+        <input type="email" name="inputEmail" class="form-control bottom" placeholder="Email" required>
 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Up</button>
         <p class="mt-5 mb-3 text-muted">&copy; Thi Hong Gam</p>
